@@ -21,7 +21,7 @@ int main() {
       cout<<"exit "<<"is a shell builtin"<<endl;
       else if(s.substr(5,9)=="type")
       cout<<"type "<<"is a shell builtin"<<endl;
-      else cout<<s.substr(5,9)<<": not found"<<endl;
+      else cout<<s.substr(5)<<": not found"<<endl;
      
     }
     else cout << s << ": command not found" << '\n';
