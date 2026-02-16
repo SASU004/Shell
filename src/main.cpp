@@ -8,7 +8,10 @@ int main() {
     cout << "$ ";
     string s;
     while(getline(cin,s)){
+    if(s=="exit")break;
+    else {
     cout << s << ": command not found" << '\n';
     cout<<"$ " ;
+  }
   }
 }
