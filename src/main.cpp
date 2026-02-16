@@ -7,7 +7,7 @@ int main() {
 
     cout << "$ ";
     string s;
-    cin >> s;
+    getline(cin,s);
 
     cout << s << ": command not found" << '\n';
 }
