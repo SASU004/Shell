@@ -5,7 +5,7 @@ int main() {
     cout << unitbuf;
     cerr << unitbuf;
 
-    cout << "$ ";
+    cout << "$";
     string s;
     while(getline(cin,s)){
     cout << s << ": command not found" << '\n';
