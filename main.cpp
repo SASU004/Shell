@@ -6,7 +6,11 @@ int main() {
   // Flush after every std::cout / std:cerr
   std::cout << std::unitbuf;
   std::cerr << std::unitbuf;
-
-  // TODO: Uncomment the code below to pass the first stage
-  cout << "$ ";
+  while (true ){
+    cout<< "$ ";
+    string input;
+    getline(cin,input);
+    if(input=="exit")break;
+    cout<< input << ": command not found"<< endl;
+  }
 }
